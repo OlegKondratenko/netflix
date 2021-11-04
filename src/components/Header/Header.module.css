@@ -1,0 +1,17 @@
+.header {
+    background-color: #fff0f0;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  
+  .header img {
+    height: 60px;
+  }
+  
+  .header p {
+    color: red;
+  }
+  
+  .loginBlock {
+    background-color: green;
+  }

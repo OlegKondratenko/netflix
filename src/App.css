@@ -1,0 +1,30 @@
+body {
+  background-color: lightskyblue;
+  overflow-y: scroll;
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "content content";
+  grid-template-columns: 3fr 9fr;
+  grid-template-rows: 3fr 100%;
+  grid-gap: 10px;
+}
+
+.header {
+  grid-area: header;
+  border: 2px solid black;
+
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+  border: 2px solid black;
+  width: 100%;
+}
